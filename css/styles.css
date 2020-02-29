@@ -1,0 +1,16 @@
+body {
+  background-image: url(../image/bkg4.jpg);
+}
+
+.jumbotron {
+  text-align: center;
+}
+
+#pizza1{
+  margin: 4rem;
+  padding-left: 300px;
+}
+.container{
+  /* padding: 20px;  */
+  margin: 2rem;
+}
