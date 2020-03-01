@@ -6,7 +6,9 @@ body {
   text-align: center;
 }
 
- 
+#menu {
+  text-align: center;
+ }
 
 #pizza1{
   margin: 4rem;
