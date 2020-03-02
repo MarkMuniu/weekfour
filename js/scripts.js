@@ -61,7 +61,7 @@ order.prototype.cost = function() {
   } else if (this.delivery === pizzaDelivery[1]) {
     this.delivery += 0;
   }
-  
+
   if (this.toppings === pizzaToppings[0]) {
     this.toppings += 200;
   } else if (this.toppings === pizzaToppings[1]){
@@ -70,4 +70,17 @@ order.prototype.cost = function() {
     this.toppings += 200;
   }
 
+  return this.price;
+}
+
+order.prototype.totalCost = function() {
+    var orderTotal = 0;
+    for (var order = 0; order < totalCosts.length; order++) {
+        orderTotal += totalCosts[order];
+    }
+    return orderTotal;
+}
+
+$(document).ready(function() {
+  $("input")
 }
