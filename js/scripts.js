@@ -57,17 +57,17 @@ order.prototype.cost = function() {
   }
 
   if (this.delivery === pizzaDelivery[0]) {
-    this.delivery += 150;
+    this.price += 150;
   } else if (this.delivery === pizzaDelivery[1]) {
-    this.delivery += 0;
+    this.price += 0;
   }
 
   if (this.toppings === pizzaToppings[0]) {
-    this.toppings += 200;
+    this.price += 200;
   } else if (this.toppings === pizzaToppings[1]){
-    this.toppings += 200;
+    this.price += 200;
   } else if (this.toppings === pizzaToppings[2]){
-    this.toppings += 200;
+    this.price += 200;
   }
 
   return this.price;
@@ -82,5 +82,17 @@ order.prototype.totalCost = function() {
 }
 
 $(document).ready(function() {
-  $("input")
+  $("input#orderbutton").click(function(event) {
+    event.preventDefault();
+    var types = $("select#type").val();
+    var sizes = $("select#size").val();
+    var crusts = $("select#crust").val();
+    var topping = $("select#toppings").val();
+    var deliveries = $("select#delivery").val();
+//
+    var newPizzaOrder = new order(types, sizes, crusts, topping, deliveries);
+    newPizzaOrder.cost();
+    totalCosts.push(newPizzaOrder.price);
+
+  
 }
