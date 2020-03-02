@@ -98,3 +98,7 @@ body {
 #orderbutton{
   text-align: center;
 }
+
+#totalamount p {
+  text-align: left;
+}

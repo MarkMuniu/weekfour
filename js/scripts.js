@@ -94,5 +94,16 @@ $(document).ready(function() {
     newPizzaOrder.cost();
     totalCosts.push(newPizzaOrder.price);
 
-  
-}
+    $("#").text(types);
+    $("#").text(sizes);
+    $("#").text(crusts);
+    $("#").text(topping);
+    $("#").text(deliveries);
+    $("#").text(newPizzaOrder.totalCost());
+    
+    prompt("Please insert your name");
+    prompt("please insert your the location you wish your order to be delivered to");
+    alert("Dear Customer, you will be charged Ksh.200 for delivery services.")
+    alert("Thank you for your patronage! Your order will be delivered to your desired location shortly.");
+
+});
