@@ -29,52 +29,61 @@ body {
 #pizza3{
   margin: 4rem;
   padding-left: 300px;
-  color: darkkhaki
+  color: darkkhaki;
 }
 
 #pizza4{
   margin: 4rem;
   padding-left: 300px;
+  color: red;
 }
 
 #pizza5{
   margin: 4rem;
   padding-left: 300px;
+  color: rgb(126, 126, 30);
 }
 
 #pizza6{
   margin: 4rem;
   padding-left: 300px;
+  color: brown;
 }
 
 #pizza7{
   margin: 4rem;
   padding-left: 300px;
+  color: green;
 }
 
 #pizza8{
   margin: 4rem;
   padding-left: 300px;
+  color: rgb(196, 19, 57)
 }
 
 #pizza9{
   margin: 4rem;
   padding-left: 300px;
+  color: green;
 }
 
 #pizza10{
   margin: 4rem;
   padding-left: 300px;
+  color: rgb(202, 119, 11)
 }
 
 #pizza11{
   margin: 4rem;
   padding-left: 300px;
+  color: rgba(228, 202, 146, 0.959);
 }
 
 #pizza12{
   margin: 4rem;
   padding-left: 300px;
+  color: rgb(165, 202, 116);
 }
 
 .container{
