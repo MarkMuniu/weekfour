@@ -15,16 +15,21 @@ body {
 #pizza1{
   margin: 4rem;
   padding-left: 300px;
+  text-align: center;
+  color: rgb(165, 77, 42);
 }
+
 
 #pizza2{
   margin: 4rem;
   padding-left: 300px;
+  color: rgb(199, 199, 4);
 }
 
 #pizza3{
   margin: 4rem;
   padding-left: 300px;
+  color: darkkhaki
 }
 
 #pizza4{
