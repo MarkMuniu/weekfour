@@ -94,7 +94,7 @@ $(document).ready(function() {
 //
     var newPizzaOrder = new order(types, sizes, crusts, topping, deliveries);
     newPizzaOrder.cost();
-    totalCosts.push(newPizzaOrder.price);
+    totalCost.push(newPizzaOrder.price);
 
     $("#zzatype").text(types);
     $("#zzasize").text(sizes);
