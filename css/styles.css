@@ -2,14 +2,21 @@ body {
   background-image: url(../image/bkg4.jpg);
 }
 
+.color { 
+ color: red;
+}
+
 .jumbotron {
   text-align: center;
 }
 
 #menu {
+  background-image: url(../image/bkg5.jpg);
   text-align: center;
-  color: gold;
-  margin: 8rem;
+  color: rgb(5, 5, 5);
+  margin: 3rem;
+  width: 1200px;
+  height: 100px;
  }
 
 #pizza1{
